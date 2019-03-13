@@ -1,3 +1,3 @@
-const hasSpecial = str => /[ !@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/.test(str)
+const hasUppercase = str => /[A-Z]/.test(str)
 
-module.exports = hasSpecial
+module.exports = hasUppercase
