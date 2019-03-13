@@ -1,0 +1,188 @@
+nav {
+    box-shadow: none !important;
+}
+
+@media only screen and (min-width: 601px) {
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        line-height: 45px;
+    }
+}
+
+.brand-logo,
+.brand-logo:active{
+  background: transparent !important;
+  border: none !important;
+}
+
+.background img:first-child {
+    width: 400%;
+}
+
+.circle {
+    object-fit: cover;
+}
+
+.update-account {
+    color: rgb(31, 31, 31);
+    background-color: rgba(0,0,0,0.1);
+    font-size: 14px;
+    text-align: center;
+    -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+    box-shadow:         inset 0 0 10px rgba(0,0,0,0.2);
+}
+
+.file-path-wrapper{
+    opacity: 0;
+    width: 0px;
+}
+
+.side-nav .userView {
+    margin-bottom: 0px;
+}
+
+#mdp-collaps .collapsible-body {
+    background-color: none !important;
+}
+.nav-link {
+  clear: both;
+  display: inline-block !important;
+  color: white !important;
+	font-size: unset;
+  font-weight: 800;
+}
+
+.nav-link > i {
+    font-size: 20px !important;
+    color: rgba(255,255,255,0.8) !important;
+}
+
+.nav-link > i:hover{
+    color: rgb(255,255,255) !important;
+}
+
+#button-navbar {
+    background: none;
+    border: none;
+    font-size: unset !important;
+    font-weight: 800 !important;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.nav-item {
+    color: black !important;
+    font-weight: 300 !important;
+}
+
+.button-collapse:hover {
+    border: none !important;
+    color: white!important;
+}
+
+.nav-link > a {
+    text-decoration: none;
+    color: white;
+}
+
+.collapsible-header {
+    font-weight: 400 !important;
+}
+
+.collapsible-header i {
+    margin-right: 0 !important;
+}
+
+
+
+.brand-logo {
+    text-decoration: none !important;
+    color: white;
+}
+
+.button-collapse:hover {
+    text-decoration: none !important;
+}
+
+.nav-link > a:hover {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 48px !important;
+}
+
+.nav-link i {
+    height: 48px !important;
+}
+
+.nav-link[type=button] {
+    color: white !important;
+}
+
+#nav-mobile #button-navbar {
+    color: black;
+    font-weight: 500 !important;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#nav-mobile .nav-link:hover {
+    border: none !important;
+    background-color: rgba(0,0,0,0.1) !important;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    width: 100%;
+}
+
+nav ul a {
+    background: none !important;
+}
+
+#nav-mobile {
+    padding: none !important;
+    z-index: 9000000;
+}
+
+.side-nav {
+    height: 100% !important;
+}
+
+@media screen and (max-width: 993px) {
+  #nav-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-link,
+  .nav-link:hover,
+  .nav-link i:hover {
+    color: black !important;
+    width: 100%;
+    height: 60px !important;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .nav-link i {
+    color: black !important;
+  }
+
+  .nav-link #button-navbar{
+        padding: 0 !important;
+  }
+}
+
+.brand-logo {
+    margin-top: 5px !important;
+}
+
+@media screen and (min-width: 993px) {
+    #nav-mobile {
+        transform : translateX(-100%) !important;
+    }
+}

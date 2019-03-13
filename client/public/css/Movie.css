@@ -1,0 +1,136 @@
+#moviePage {
+    padding: 0 5% 0 5%;
+}
+
+.poster > img {
+    height: 21vw;
+    width: 14vw;
+    min-height: 300px;
+    min-width: 200px;
+	object-fit: cover;
+    vertical-align: middle;
+    -webkit-mask-image:-webkit-gradient(linear, center bottom, right bottom, from(rgba(0,0,0,1)), color-stop(0.7, rgba(0,0,0.9)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.movieCard {
+    display: -webkit-box;
+    padding: 8%;
+    margin: auto;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .movieCard{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .poster {
+        margin: auto;
+    }
+
+    .movieInfo {
+        max-width: 100% !important;
+    }
+}
+
+.movieInfo {
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 80%;
+}
+
+.movieInfo > .movietitle {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.moviedate, .title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.moviedescription {
+    text-align: -webkit-auto;
+    width: 100%;
+}
+
+.film-genre {
+    padding-left: 3px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.rating {
+    min-width: 3rem;
+    padding: 0 6px;
+    margin-left: 14px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 22px;
+    height: 22px;
+    color: white !important;
+    float: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #2196F3 !important;
+}
+
+.watchList {
+    min-width: 3rem;
+    padding: 0 6px;
+    margin-left: 14px;
+    text-align: center;
+    font-size: 1rem !important;
+    line-height: 22px;
+    height: 22px;
+    color: white !important;
+    float: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.movieComment {
+    text-align: center;
+    margin: 8% !important;
+}
+
+.movieComment > div > form > button[type=submit] {
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+}
+
+.movieComment > div > div > h6 {
+    text-align: right;
+    font-weight: 700;
+}
+
+#videoContainer {
+    margin : 0 !important;
+}
+
+#video {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#resetStream {
+    color: white !important;
+    margin: auto;
+    display: table;
+}
+
+#resetStream > .btn {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.redButton{
+  background-color: red !important;
+}

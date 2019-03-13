@@ -1,0 +1,46 @@
+.userProfile {
+	margin-top : 2%;
+	width: 80%;
+	margin: auto;
+}
+
+.userTitle {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.userInfo {
+	color:white;
+	font-size: 20px;
+}
+
+.user-info-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 300px;
+  margin: auto;
+}
+
+.key{
+  font-weight: 700;
+}
+
+.profileTitle {
+  text-align: center;
+  margin: 50px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.userProfile .containerPic {
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.noInfo {
+  color: white;
+  display: flex;
+  justify-content: center;
+}

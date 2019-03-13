@@ -1,0 +1,47 @@
+{
+  "name": "authserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.6.0"
+  },
+  "scripts": {
+    "start": "nodemon --no-deprecation src/server.js",
+    "createUser": "NODE_ENV=development node --no-deprecation scripts/user/createUser.js",
+    "getUser": "NODE_ENV=development node --no-deprecation scripts/user/getUser.js",
+    "removeUser": "NODE_ENV=development node --no-deprecation scripts/user/removeUser.js",
+    "createClientAuthCodeMethod": "NODE_ENV=development node --no-deprecation scripts/user/createClientAuthCodeMethod.js",
+    "createClientPasswordMethod": "NODE_ENV=development node --no-deprecation scripts/user/createClientPasswordMethod.js",
+    "dev": "NODE_ENV=development nodemon --no-deprecation src/server.js",
+    "lint": "eslint \"**/*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "google-auth-library": "^3.0.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.8",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node-fetch": "^2.3.0",
+    "nodemailer": "^5.1.1",
+    "querystring": "^0.2.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

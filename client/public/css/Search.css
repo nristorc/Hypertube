@@ -1,0 +1,100 @@
+.movieBox {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 250px;
+	position: relative;
+}
+.search-form{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	flex-direction: column;
+}
+.search-filter{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.search-filter div{
+	margin-left: 10px;
+}
+
+.cover {
+	border-radius: 10px;
+	height: 340px;
+	width: 230px;
+	margin:20px;
+	object-fit: cover;
+	border: 3px solid white;
+	-webkit-mask-image: -webkit-gradient(linear, center top, right bottom, from(rgba(0,0,0,1)), color-stop(0.7, rgba(0,0,0.9)), to(rgba(0,0,0,0)));
+	mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+	overflow: hidden;
+}
+
+.cover-view {
+	filter: grayscale(1) contrast(40%);
+	color: black !important;
+}
+
+.viewed {
+	position: absolute;
+    z-index: 900;
+    left: 20px;
+    bottom: 115px;
+    color: #2196F3;
+}
+
+.film-title{
+	text-align: center;
+	height: 90px;
+	font-size: 20px;
+	overflow: hidden;
+	margin-top: 0px;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	font-weight: 700;
+}
+
+#moviesList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.movieBox > .badge {
+	position: absolute !important;
+    right: 0 !important;
+	bottom: 120px !important;
+	background-color: #2196F3 !important;
+	color: white !important;
+	z-index: 900;
+}
+
+.white-text {
+	display: -webkit-inline-box;
+	text-align: center;
+}
+
+#scroll-arrow {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 50%;
+	background-color: rgba(255,255,255, 0.4);
+	justify-content: center;
+    display: none;
+	align-items: center;
+	color: white;
+	border: none;
+}

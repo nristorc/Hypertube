@@ -1,0 +1,124 @@
+#popmovies{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
+    width: 80%;
+    max-width: 1300px;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+.popmovieBox span.badge {
+  font-size: 0.8em !important;
+}
+
+@media screen and (max-width: 720px) {
+    #popmovies{
+        grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+    }
+
+    .popmovieBox > .coverPop {
+      height: 30vmin !important;
+      width: 20vmin !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #popmovies{
+        grid-template-columns: minmax(100px, 1fr);
+    }
+
+    .popmovieBox > .coverPop {
+      height: 45vmin !important;
+      width: 30vmin !important;
+  }
+
+  .popmovieBox {
+    margin: auto;
+  }
+}
+
+.popmovieBox > .coverPop {
+  margin: auto;
+  height: 18vw;
+  width: 12vw;
+  min-height: 10vw;
+  min-width: 6vw;
+  border-radius: 10px;
+	object-fit: cover;
+	border: 3px solid white;
+	-webkit-mask-image: -webkit-gradient(linear, center top, right bottom, from(rgba(0,0,0,1)), color-stop(0.7, rgba(0,0,0.9)), to(rgba(0,0,0,0)));
+	mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+	overflow: hidden;
+}
+
+.popmovieBox > .badge {
+	position: absolute !important;
+  right: 30px !important;
+	bottom: 65px !important;
+	background-color: #2196F3 !important;
+	color: white !important;
+	z-index: 900;
+}
+
+.movieInfo{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.popFilm-title {
+  margin: auto;
+  text-align: center;
+	min-height: 50px;
+	font-size: calc(14px + 0.5vmin);
+	overflow: hidden;
+  margin-top: 0px;
+  display: -webkit-box;
+	-webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-weight: 700;
+  position: relative;
+  height: 3.2em;
+}
+
+.pop-title {
+  text-align: center;
+	min-height: 50px;
+	font-size: calc(12px + 1.5vmin);
+	overflow: hidden;
+	margin-top: 4%;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.popmovieBox {
+  display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 250px;
+	position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#moviesList a:hover {
+  text-decoration: none !important;
+  text-shadow: 1px 1px 2px #8b8b8b;
+}
+
+#popmovies a:hover {
+  text-decoration: none !important;
+  text-shadow: 1px 1px 2px #8b8b8b;
+}
+
+#popmovies a {
+  display: flex;
+}
+
+.viewedHome {
+  position: absolute;
+  z-index: 900;
+  top: 10px;
+  color: #2196F3;
+}

@@ -1,0 +1,180 @@
+.grid-form{
+  display: grid;
+  max-width: 60%;
+  margin: auto;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.grid2-form{
+  display: grid;
+  grid-gap: 1em;
+	grid-template-columns: 1fr 1fr;
+}
+
+input {
+	background: none !important;
+	border: none;
+	border-bottom: 1px solid white;
+	padding: 5%;
+  color: white;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+input[type="submit"]{
+	cursor:pointer;
+	border: none;
+	background: white;
+	margin: 10%;
+}
+
+textarea{
+	background-color: white;
+}
+
+input[type="file"]{
+	cursor:pointer;
+    border: none;
+}
+
+label{
+	color: rgb(199, 199, 199) !important;
+    margin: auto;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+
+button {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+
+select{
+	display: block;
+	color: rgb(73, 69, 69);
+    width: 130px;
+    padding-left: 10px;
+}
+
+.m6, .submitRegister {
+	width: 240px;
+	margin: auto;
+}
+
+.m6 {
+	background-color: #007bff79 !important;
+}
+
+.input-field, .file-field {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 720px) {
+  .input-field, .file-field {
+    max-width: 300px !important;
+  }
+
+  .grid2-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+.customBtn {
+  display: inline-block;
+  background: white;
+  color: #444;
+  margin: auto;
+  width: 180px;
+  max-width: 180px;
+  border-radius: 3px;
+  white-space: nowrap;
+  }
+
+.customBtn:hover {
+  cursor: pointer;
+}
+
+span.label {
+  font-family: serif;
+  font-weight: normal;
+}
+
+span.iconGoogle {
+  background: url('https://google-developers.appspot.com/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+span.icon42 {
+  background: url('https://pbs.twimg.com/profile_images/928606696506904576/hnXaVbLy_400x400.jpg') transparent 5px 50% no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+span.iconGithub {
+  background: url('https://www.freeiconspng.com/uploads/github-logo-icon-0.png') transparent 1px 50% no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+span.iconGitlab {
+  background: url('https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/155/formation-gitlab.png') transparent 5px 50% no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+span.iconFb {
+  background: url('https://en.facebookbrand.com/wp-content/uploads/2016/05/flogo_rgb_hex-brc-site-250.png') transparent 5px 50% no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+span.buttonText {
+  display: inline-block;
+  font-family: Roboto,arial,sans-serif;
+  line-height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  max-width: 135px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+  background-color: #2196F3;
+  letter-spacing: .21px;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-left: 42px;
+  padding-right: 42px;
+  vertical-align: middle;
+}
+
+span.buttonText:hover {
+  color: rgb(50, 50, 50);
+}
+
+.disabled {
+  height: 20px !important;
+  background: url("/img/disabled.png") no-repeat right top !important;
+}
+
+#input_1 {
+  background: none !important;
+}

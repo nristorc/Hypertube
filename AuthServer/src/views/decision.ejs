@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Decision page</h1>
+    <form action="/authorization?<%=qs%>" enctype="application/x-www-form-urlencoded" method="POST">
+      <button type="submit" name="decision" value="0">Abort</button>
+      <button type="submit" name="decision" value="1">Valid</button>
+    </form>
+  </body>
+</html>

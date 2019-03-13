@@ -1,0 +1,7 @@
+module.exports.AccessTokenModel = require('./accessToken.model')
+module.exports.UserViewsModel = require('./userViews.model')
+module.exports.Comments = require('./comments.model')
+module.exports.MovieModel = require('./movies.model')
+module.exports.UserModel = require('./user.model')
+module.exports.MovieToken = require('./movieToken.model')
+module.exports.WatchListModel = require('./watchList.model')

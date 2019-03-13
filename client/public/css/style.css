@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	color: white;
+	text-align: center;
+}
+
+nav{
+	background-color: #11ffee00 !important;
+}
+
+p{
+	color: white;
+}
+
+.white-text{
+	color: white;
+}
+
+.nav-link:hover{
+	border-bottom: 4px solid white;
+}
+
+.popup-error,
+.popup-success{
+  font-style: italic;
+  font-weight: 800;
+  background-color: #c62828;
+  max-width: 685px;
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  padding: 0.7em;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.popup-success{
+  background-color: #00796b;
+}
+
+.error{
+	border-bottom: 4px solid #d30000 !important;
+	box-shadow: 0 1px 0 0 #d30000 !important;
+}
+
+.valid{
+	border-bottom: 4px solid #26a69a !important;
+	box-shadow: 0 1px 0 0 #26a69a !important;
+}

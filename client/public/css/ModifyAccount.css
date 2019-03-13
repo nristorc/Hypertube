@@ -1,0 +1,107 @@
+.account-form {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.2);
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+  box-shadow:         inset 0 0 10px rgba(0,0,0,0.2);
+}
+
+.error-msg,
+.success-msg{
+  font-weight: 600;
+  font-style: italic;
+}
+
+.error-msg{
+  color: red !important;
+}
+
+.success-msg{
+  color: green !important;
+}
+
+.account-form p {
+  color: black;
+}
+
+.account-form input {
+	background: none;
+	border: none;
+	border-bottom: 1px solid white !important;
+	padding: 5%;
+  color: rgb(31, 31, 31);
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+
+.account-form input[type="submit"]{
+	cursor:pointer;
+	border: none;
+	background: white;
+	margin: 10%;
+}
+
+.account-form textarea{
+	background-color: white;
+}
+
+.account-form input[type="file"]{
+  cursor:pointer;
+  border: none;
+  position: absolute;
+  width: 56%;
+  left: 14px;
+  height: 66%;
+}
+
+.account-form .btn{
+  justify-content: center;
+  background-color: #2196F3 !important;
+}
+
+.account-form label{
+  color: rgb(0, 0, 0) !important;
+  margin: auto;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+.account-form  ::placeholder {
+  color: rgb(100, 100, 100);
+  opacity: 1;
+}
+
+.language {
+  height: 30px;
+  width: 30px;
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+}
+
+.buttonLanguage {
+  background: none !important;
+  border: none !important;
+}
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+  margin:5px;
+}
+
+[type=radio]:checked + img {
+  box-shadow: 1px 1px 15px #2196F3;
+  border: 2px solid rgba(33, 150, 243, 0.8);
+}
+
+.notifications-tr {
+  width: 290px !important;
+}
