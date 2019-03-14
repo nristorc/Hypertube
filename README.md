@@ -1,6 +1,9 @@
 # HYPERTUBE - ECOLE 42
 
 **Projet réalisé dans le cadre de notre formation à l'école 42 - dernier projet de la branche Web avant stage**\
+**Objectifs: Framework MVC - Omniauth - Background jobs - Internationalisation**\
+**Compétences: Group & interpersonal - Web - DB & Data**\
+
 Documentation API: [Postman](https://documenter.getpostman.com/view/6363897/S11RKFVL)
 
 **Credit to: [acoulomb](https://github.com/acoulomb) - [akarasso](https://github.com/akarasso) - [dlaurent](https://github.com/dlaurent42) - [nristorc](https://github.com/nristorc)**
