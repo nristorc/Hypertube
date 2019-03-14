@@ -17,6 +17,7 @@ Documentation API: [Postman](https://documenter.getpostman.com/view/6363897/S11R
 
 ## Table des matières
 - [Technologies utilisées](#technologies-utilisées)
+- [Preview](#preview)
 - [Introduction](#introduction)
 - [Consignes générales](#consignes-générales)
 - [Partie utilisateur](#partie-utilisateur)
@@ -25,7 +26,28 @@ Documentation API: [Postman](https://documenter.getpostman.com/view/6363897/S11R
 	- [Miniatures](#miniatures)
 - [Partie vidéo](#partie-vidéo)
 - [Partie bonus](#partie-bonus)
-- [Preview](#preview)
+
+# Preview
+[Vidéo de présentation Hypertube](https://drive.google.com/open?id=1YGjg0wUkvyfmE9Sa5fikl8_MT-4mGT23)
+
+Login Page
+![Screen 1](https://drive.google.com/uc?id=1f4ExtnbuGv3IB9WHCpekpJsx6RTwetoR)
+
+Films Populaires (Home)
+![Films Populaires (Home)](https://drive.google.com/uc?id=1wEhkRGPZe4U9Aw-CRfvasswq6JuLH0K2)
+
+Recherche
+![Recherche](https://drive.google.com/uc?id=1LJ5s6NB-tnfY0SydyOZobS6BsE-PT-UK)
+
+Page Film
+![Page Film](https://drive.google.com/uc?id=1kdDfD6x4JvoaDH5s8aciR54U2VdfEt15)
+
+Page Utilisateur
+![Page utilisateur](https://drive.google.com/uc?id=1-S3VpqM9na74Isj4i49YMcMyBSZNREWS)
+
+Watchlist
+![Watchlist](https://drive.google.com/uc?id=1N-CutkGXD7ytXsdASbaL_bYCpi4HsVoX)
+
 
 # Introduction
 
@@ -142,24 +164,3 @@ Bonus supplémentaires effectués
 - Creation d'un server d'authentification indépendant **done: methode `password` et `authorization_code`**
 - Documentation API **done**
 - Marquer les films à voir plus tard par l'utilisateur (watchlist)
-
-# Preview
-[Vidéo de présentation Hypertube](https://drive.google.com/open?id=1YGjg0wUkvyfmE9Sa5fikl8_MT-4mGT23)
-
-Login Page
-![Screen 1](https://drive.google.com/uc?id=1f4ExtnbuGv3IB9WHCpekpJsx6RTwetoR)
-
-Films Populaires (Home)
-![Films Populaires (Home)](https://drive.google.com/uc?id=1wEhkRGPZe4U9Aw-CRfvasswq6JuLH0K2)
-
-Recherche
-![Recherche](https://drive.google.com/uc?id=1LJ5s6NB-tnfY0SydyOZobS6BsE-PT-UK)
-
-Page Film
-![Page Film](https://drive.google.com/uc?id=1kdDfD6x4JvoaDH5s8aciR54U2VdfEt15)
-
-Page Utilisateur
-![Page utilisateur](https://drive.google.com/uc?id=1-S3VpqM9na74Isj4i49YMcMyBSZNREWS)
-
-Watchlist
-![Watchlist](https://drive.google.com/uc?id=1N-CutkGXD7ytXsdASbaL_bYCpi4HsVoX)
